@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: login-page-react
-  description: A simple React login page
+  name: {{ parameters.component_id }}
+  description: {{ parameters.description }}
   annotations:
-    github.com/project-slug: porasm1998/
-    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-github-org/{{ parameters.component_id }}
 spec:
   type: website
   lifecycle: experimental
-  owner: porasm1998
+  owner: {{ parameters.owner }}
