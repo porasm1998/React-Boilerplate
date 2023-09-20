@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: login-page-react
   description: A simple React login page
+  annotations:
+    github.com/project-slug: porasm1998/
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: experimental
