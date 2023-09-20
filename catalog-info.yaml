@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: login-page-react
+  description: A simple React login page
+spec:
+  type: website
+  lifecycle: experimental
+  owner: porasm1998
